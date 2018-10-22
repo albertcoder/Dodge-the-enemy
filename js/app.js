@@ -152,9 +152,9 @@ function closePopover() {
     x.style.display = 'none';
   });
   // Reload page if completion popover is displayed.
-  if (this.id ='completion-popover-close') {
+  if (this.id == 'completion-popover-close') {
     location.reload();
-  };
+  }
 }
 
 // Refresh page if user selects to play again on displaying completion popover.
